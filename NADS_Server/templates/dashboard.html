@@ -1,1 +1,124 @@
-<h1>This is Dashboard</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Network Anomaly Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white min-h-screen p-6">
+    <div class="max-w-7xl mx-auto">
+      <h1 class="text-4xl font-bold mb-6 text-center">
+        Network Attack Monitoring Dashboard
+      </h1>
+
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
+        <canvas id="attackChart" height="100"></canvas>
+      </div>
+
+      <div class="bg-gray-800 p-4 rounded-lg shadow-lg mb-4">
+        <h2 class="text-xl font-semibold mb-2">
+          Total Attacks (Last 5 Minutes):
+          <span id="totalAttacks" class="text-red-400 font-bold">0</span>
+        </h2>
+      </div>
+
+      <h2 class="text-2xl font-semibold mb-4">Attack Logs (Last 5 Minutes)</h2>
+      <div
+        class="bg-gray-800 p-4 rounded-lg shadow-lg max-h-80 overflow-y-auto"
+      >
+        <ul class="space-y-2" id="attackLogList">
+          <li class="text-gray-400">Loading...</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      const ctx = document.getElementById("attackChart").getContext("2d");
+      let attackChart = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: [],
+          datasets: [
+            { label: "DDOS", borderColor: "red", data: [], fill: false },
+            { label: "PortScan", borderColor: "orange", data: [], fill: false },
+            {
+              label: "SqlInjection",
+              borderColor: "blue",
+              data: [],
+              fill: false,
+            },
+            {
+              label: "BruteForce",
+              borderColor: "purple",
+              data: [],
+              fill: false,
+            },
+            { label: "Normal", borderColor: "green", data: [], fill: false },
+          ],
+        },
+        options: {
+          animation: false,
+          responsive: true,
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: { color: "#ffffff" },
+            },
+            x: {
+              ticks: { color: "#ffffff" },
+            },
+          },
+          plugins: {
+            legend: {
+              labels: {
+                color: "white",
+              },
+            },
+          },
+        },
+      });
+
+      async function fetchGraphData() {
+        const response = await fetch("/api/data/");
+        const data = await response.json();
+        attackChart.data.labels = data.labels;
+        attackChart.data.datasets.forEach((dataset) => {
+          dataset.data = data[dataset.label];
+        });
+        attackChart.update();
+      }
+
+      async function fetchLogs() {
+        const response = await fetch("/api/logs/");
+        const data = await response.json();
+        const list = document.getElementById("attackLogList");
+        const total = document.getElementById("totalAttacks");
+        list.innerHTML = "";
+        total.textContent = data.total_attacks;
+
+        if (data.logs.length === 0) {
+          list.innerHTML =
+            '<li class="text-gray-400">No attacks in last 5 minutes.</li>';
+        } else {
+          data.logs.forEach((log) => {
+            const li = document.createElement("li");
+            li.className = "border-b border-gray-700 pb-2";
+            li.innerHTML = `
+                        <span class="text-sm text-gray-400">${log.timestamp}</span> |
+                        <span class="text-green-400">${log.host_ip}</span> → <span class="text-red-400">${log.destination_ip}</span> :
+                        <span class="font-semibold text-red-500">${log.attack}</span>
+                    `;
+            list.appendChild(li);
+          });
+        }
+      }
+
+      fetchGraphData();
+      fetchLogs();
+      setInterval(fetchGraphData, 10000);
+      setInterval(fetchLogs, 10000);
+    </script>
+  </body>
+</html>
