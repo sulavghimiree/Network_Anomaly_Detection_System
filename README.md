@@ -6,13 +6,13 @@
 
 🔍 Detects:
 
-Port Scans
+- Port Scans
 
-DoS/DDoS Attacks
+- DoS/DDoS Attacks
 
-Brute Force Logins
+- Brute Force Logins
 
-Suspicious IP Connections
+- Suspicious IP Connections
 
 ⚙️ Modular Design — Easy to expand & customize
 
@@ -34,7 +34,7 @@ Django for optional dashboard
 
 SQLite/PostgreSQL for storage
 
-Netfilter / Raw Socket APIs for packet sniffing
+WireShark / Tshark for packet sniffing
 
 ⚠️ Project Status
 🧪 This project is currently under active development.
@@ -48,7 +48,7 @@ bash
 Copy
 Edit
 # Clone the repo
-git clone https://github.com/your-username/IDS.git
+git clone https://github.com/sulavghimiree/Network_Anomaly_Detection_System
 cd IDS
 
 # Create a virtual environment
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 # Start the system
 
-python main.py
+python manage.py runserver
 🧠 Future Plans
 🔐 Integrate firewall-level auto-blocking
 
