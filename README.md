@@ -23,12 +23,12 @@
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/your-screenshot-placeholder.png" width="700" alt="IDS Dashboard Preview" /> </p>
 🛠️ Tech Stack   
-- Python     
-- Scikit-learn for ML models        
-- Django for optional dashboard        
-- SQLite/PostgreSQL for storage        
+- Python      
+- Scikit-learn for ML models          
+- Django for optional dashboard         
+- SQLite/PostgreSQL for storage         
 - WireShark / Tshark for packet sniffing
-
+       
 ⚠️ Project Status  
 🧪 This project is currently under active development.  
 👥 Contributions, feedback, and ideas are welcome via issues or pull requests.
