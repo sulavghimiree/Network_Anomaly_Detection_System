@@ -1,17 +1,14 @@
 <h1 align="center">🛡️ Intrusion Detection System (IDS)</h1> <p align="center"> <b>A lightweight, real-time IDS powered by Machine Learning to protect your network against threats like DDoS, Port Scanning, Brute Force, and more.</b><br /> <i>Built with ❤️ using Python, Scikit-learn, and Django.</i> </p> <p align="center"> <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python&style=flat-square" /> <img src="https://img.shields.io/badge/ML-Powered-lightgreen?style=flat-square" /> <img src="https://img.shields.io/badge/Real--Time-Monitoring-critical?style=flat-square" /> <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=flat-square" /> </p>
+
 🚀 Features
 ⚡ Real-Time Traffic Analysis
-
 🧠 Custom ML-Based Attack Detection
 
 🔍 Detects:
 
 - Port Scans
-
 - DoS/DDoS Attacks
-
 - Brute Force Logins
-
 - Suspicious IP Connections
 
 ⚙️ Modular Design — Easy to expand & customize
@@ -26,15 +23,11 @@
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/your-screenshot-placeholder.png" width="700" alt="IDS Dashboard Preview" /> </p>
 🛠️ Tech Stack
-Python
-
--Scikit-learn for ML models
-
--Django for optional dashboard
-
--SQLite/PostgreSQL for storage
-
--WireShark / Tshark for packet sniffing
+- Python
+- Scikit-learn for ML models
+- Django for optional dashboard
+- SQLite/PostgreSQL for storage
+- WireShark / Tshark for packet sniffing
 
 ⚠️ Project Status  
 🧪 This project is currently under active development.  
@@ -63,15 +56,12 @@ pip install -r requirements.txt
 # Start the system
 
 python manage.py runserver
+
 🧠 Future Plans  
 🔐 Integrate firewall-level auto-blocking
-
 📊 Development of Desktop Application
-
 📡 Multi-device deployment
-
 🧪 Enhanced model training using more real-time attack datasets
-
 🤝 Contributing
 Contributions are highly appreciated!
 Feel free to fork the repo, raise issues, and submit PRs.
