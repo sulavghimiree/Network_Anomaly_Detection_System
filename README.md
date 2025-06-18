@@ -28,32 +28,32 @@
 🛠️ Tech Stack
 Python
 
-Scikit-learn for ML models
+-Scikit-learn for ML models
 
-Django for optional dashboard
+-Django for optional dashboard
 
-SQLite/PostgreSQL for storage
+-SQLite/PostgreSQL for storage
 
-WireShark / Tshark for packet sniffing
+-WireShark / Tshark for packet sniffing
 
-⚠️ Project Status
-🧪 This project is currently under active development.
+⚠️ Project Status  
+🧪 This project is currently under active development.  
 👥 Contributions, feedback, and ideas are welcome via issues or pull requests.
 
 👨‍💻 Meet the Team
 
 <table align="center"> <tr> <td align="center"> <img src="https://github.com/sulavghimiree.png" width="100"/><br /> <b>Sulav Ghimire</b><br /> <a href="https://github.com/sulavghimiree">@sulavghimiree</a><br /> 💡 AI & System Design Enthusiast </td> <td align="center"> <img src="https://github.com/dollarboysushil.png" width="100"/><br /> <b>Sushil Poudel</b><br /> <a href="https://dollarboysushil.com">@dollarboysushil</a><br /> 🛡️ CPTS Certified Cybersecurity Researcher </td> </tr> </table>
-📥 Getting Started
-bash
-Copy
-Edit
-# Clone the repo
-git clone https://github.com/sulavghimiree/Network_Anomaly_Detection_System
+📥 Getting Started    
+bash    
+Copy    
+Edit    
+# Clone the repo   
+git clone https://github.com/sulavghimiree/Network_Anomaly_Detection_System      
 cd IDS
 
 # Create a virtual environment
 
-python -m venv venv
+python -m venv venv  
 source venv/bin/activate # or venv\Scripts\activate on Windows
 
 # Install dependencies
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 # Start the system
 
 python manage.py runserver
-🧠 Future Plans
+🧠 Future Plans  
 🔐 Integrate firewall-level auto-blocking
 
 📊 Development of Desktop Application
