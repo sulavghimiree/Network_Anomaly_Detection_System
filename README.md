@@ -66,11 +66,11 @@ python manage.py runserver
 🧠 Future Plans
 🔐 Integrate firewall-level auto-blocking
 
-📊 Add interactive dashboards
+📊 Development of Desktop Application
 
-📡 Multi-device deployment (IoT routers, Raspberry Pi)
+📡 Multi-device deployment
 
-🧪 Enhanced model training using real-time attack datasets
+🧪 Enhanced model training using more real-time attack datasets
 
 🤝 Contributing
 Contributions are highly appreciated!
