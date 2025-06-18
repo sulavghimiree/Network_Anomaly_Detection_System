@@ -1,0 +1,4 @@
+2025-06-18 09:15:00 INFO  cic.cs.unb.ca.ifm.Cmd    You select: captures\20250618_091426.pcap
+2025-06-18 09:15:00 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: csv_output
+2025-06-18 09:15:00 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2025-06-18 09:15:00 ERROR cic.cs.unb.ca.jnetpcap.PacketReader    Error while opening file for capture: bad dump file format

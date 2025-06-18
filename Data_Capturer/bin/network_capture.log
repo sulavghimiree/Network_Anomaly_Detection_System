@@ -1,0 +1,121 @@
+2025-06-17 17:19:49,821 - INFO - ==================================================
+2025-06-17 17:19:49,822 - INFO - [*] Starting Network Traffic Capture System
+2025-06-17 17:19:49,822 - INFO - [*] Interface: Wi-Fi
+2025-06-17 17:19:49,822 - INFO - [*] Capture Duration: 5 seconds
+2025-06-17 17:19:49,822 - INFO - [*] Endpoint: http://127.0.0.1:8000/predict/
+2025-06-17 17:19:49,822 - INFO - ==================================================
+2025-06-17 17:19:49,823 - INFO - [*] Cleaning up old files...
+2025-06-17 17:19:49,877 - INFO - [*] Starting capture worker thread
+2025-06-17 17:19:49,877 - INFO - [*] Capturing traffic to captures\20250617_171949.pcap for 5 seconds...
+2025-06-17 17:19:49,879 - INFO - [*] Starting conversion and sending worker thread
+2025-06-17 17:19:49,881 - INFO - [*] System running... Press Ctrl+C to stop
+2025-06-17 17:19:53,991 - INFO - [*] Shutdown signal received
+2025-06-17 17:19:53,992 - INFO - [*] Cleaning up...
+2025-06-17 17:19:53,992 - INFO - [*] Cleaning up old files...
+2025-06-17 17:19:53,992 - ERROR - [X] Failed to remove captures\20250617_171949.pcap: [WinError 32] The process cannot access the file because it is being used by another process: 'captures\\20250617_171949.pcap'
+2025-06-17 17:19:53,993 - INFO - [*] System stopped
+2025-06-17 17:20:28,975 - INFO - ==================================================
+2025-06-17 17:20:28,975 - INFO - [*] Starting Network Traffic Capture System
+2025-06-17 17:20:28,975 - INFO - [*] Interface: Wi-Fi
+2025-06-17 17:20:28,975 - INFO - [*] Capture Duration: 5 seconds
+2025-06-17 17:20:28,976 - INFO - [*] Endpoint: http://127.0.0.1:8000/predict/
+2025-06-17 17:20:28,976 - INFO - ==================================================
+2025-06-17 17:20:28,976 - INFO - [*] Cleaning up old files...
+2025-06-17 17:20:28,981 - INFO - [*] Starting capture worker thread
+2025-06-17 17:20:28,982 - INFO - [*] Capturing traffic to captures\20250617_172028.pcap for 5 seconds...
+2025-06-17 17:20:28,984 - INFO - [*] Starting conversion and sending worker thread
+2025-06-17 17:20:28,986 - INFO - [*] System running... Press Ctrl+C to stop
+2025-06-17 17:20:34,579 - INFO - [*] Capturing traffic to captures\20250617_172034.pcap for 5 seconds...
+2025-06-17 17:20:34,579 - INFO - [*] Processing file: captures\20250617_172028.pcap
+2025-06-17 17:20:34,618 - INFO - [*] Converting captures\20250617_172028_converted.pcap to CSV using CICFlowMeter...
+2025-06-17 17:20:36,654 - WARNING - [!] Row 1 failed with status: 204
+2025-06-17 17:20:36,663 - WARNING - [!] Row 2 failed with status: 204
+2025-06-17 17:20:36,677 - WARNING - [!] Row 3 failed with status: 204
+2025-06-17 17:20:36,695 - WARNING - [!] Row 4 failed with status: 204
+2025-06-17 17:20:36,703 - WARNING - [!] Row 5 failed with status: 204
+2025-06-17 17:20:36,714 - WARNING - [!] Row 6 failed with status: 204
+2025-06-17 17:20:36,723 - WARNING - [!] Row 7 failed with status: 204
+2025-06-17 17:20:36,732 - WARNING - [!] Row 8 failed with status: 204
+2025-06-17 17:20:36,734 - INFO - [*] Cleaning up processed files...
+2025-06-17 17:20:40,163 - INFO - [*] Capturing traffic to captures\20250617_172040.pcap for 5 seconds...
+2025-06-17 17:20:40,163 - INFO - [*] Processing file: captures\20250617_172034.pcap
+2025-06-17 17:20:40,198 - INFO - [*] Converting captures\20250617_172034_converted.pcap to CSV using CICFlowMeter...
+2025-06-17 17:20:41,098 - WARNING - [!] Row 1 failed with status: 204
+2025-06-17 17:20:41,107 - WARNING - [!] Row 2 failed with status: 204
+2025-06-17 17:20:41,116 - WARNING - [!] Row 3 failed with status: 204
+2025-06-17 17:20:41,119 - INFO - [*] Cleaning up processed files...
+2025-06-17 17:20:45,786 - INFO - [*] Capturing traffic to captures\20250617_172045.pcap for 5 seconds...
+2025-06-17 17:20:45,786 - INFO - [*] Processing file: captures\20250617_172040.pcap
+2025-06-17 17:20:45,823 - INFO - [*] Converting captures\20250617_172040_converted.pcap to CSV using CICFlowMeter...
+2025-06-17 17:20:46,845 - WARNING - [!] Row 1 failed with status: 204
+2025-06-17 17:20:46,863 - WARNING - [!] Row 2 failed with status: 204
+2025-06-17 17:20:46,881 - WARNING - [!] Row 3 failed with status: 204
+2025-06-17 17:20:46,899 - WARNING - [!] Row 4 failed with status: 204
+2025-06-17 17:20:46,916 - WARNING - [!] Row 5 failed with status: 204
+2025-06-17 17:20:46,932 - WARNING - [!] Row 6 failed with status: 204
+2025-06-17 17:20:46,941 - WARNING - [!] Row 7 failed with status: 204
+2025-06-17 17:20:46,960 - WARNING - [!] Row 8 failed with status: 204
+2025-06-17 17:20:46,963 - INFO - [*] Cleaning up processed files...
+2025-06-17 17:20:51,455 - INFO - [*] Capturing traffic to captures\20250617_172051.pcap for 5 seconds...
+2025-06-17 17:20:51,455 - INFO - [*] Processing file: captures\20250617_172045.pcap
+2025-06-17 17:20:51,496 - INFO - [*] Converting captures\20250617_172045_converted.pcap to CSV using CICFlowMeter...
+2025-06-17 17:20:52,411 - WARNING - [!] Row 1 failed with status: 204
+2025-06-17 17:20:52,430 - WARNING - [!] Row 2 failed with status: 204
+2025-06-17 17:20:52,448 - WARNING - [!] Row 3 failed with status: 204
+2025-06-17 17:20:52,458 - WARNING - [!] Row 4 failed with status: 204
+2025-06-17 17:20:52,478 - WARNING - [!] Row 5 failed with status: 204
+2025-06-17 17:20:52,487 - WARNING - [!] Row 6 failed with status: 204
+2025-06-17 17:20:52,489 - INFO - [*] Cleaning up processed files...
+2025-06-17 17:20:54,613 - INFO - [*] Shutdown signal received
+2025-06-17 17:20:54,613 - INFO - [*] Cleaning up...
+2025-06-17 17:20:54,613 - INFO - [*] Cleaning up old files...
+2025-06-17 17:20:54,614 - ERROR - [X] Failed to remove captures\20250617_172051.pcap: [WinError 32] The process cannot access the file because it is being used by another process: 'captures\\20250617_172051.pcap'
+2025-06-17 17:20:54,615 - INFO - [*] System stopped
+2025-06-17 17:24:07,079 - INFO - ==================================================
+2025-06-17 17:24:07,080 - INFO - [*] Starting Network Traffic Capture System
+2025-06-17 17:24:07,080 - INFO - [*] Interface: Wi-Fi
+2025-06-17 17:24:07,080 - INFO - [*] Capture Duration: 5 seconds
+2025-06-17 17:24:07,080 - INFO - [*] Endpoint: http://127.0.0.1:8000/predict/
+2025-06-17 17:24:07,080 - INFO - ==================================================
+2025-06-17 17:24:07,080 - INFO - [*] Cleaning up old files...
+2025-06-17 17:24:07,086 - INFO - [*] Starting capture worker thread
+2025-06-17 17:24:07,086 - INFO - [*] Capturing traffic to captures\20250617_172407.pcap for 5 seconds...
+2025-06-17 17:24:07,089 - INFO - [*] Starting conversion and sending worker thread
+2025-06-17 17:24:07,090 - INFO - [*] System running... Press Ctrl+C to stop
+2025-06-17 17:24:10,367 - INFO - [*] Shutdown signal received
+2025-06-17 17:24:10,369 - INFO - [*] Cleaning up...
+2025-06-17 17:24:10,369 - INFO - [*] Cleaning up old files...
+2025-06-17 17:24:10,370 - ERROR - [X] Failed to remove captures\20250617_172407.pcap: [WinError 32] The process cannot access the file because it is being used by another process: 'captures\\20250617_172407.pcap'
+2025-06-17 17:24:10,370 - INFO - [*] System stopped
+2025-06-17 17:28:03,369 - INFO - ==================================================
+2025-06-17 17:28:03,369 - INFO - [*] Starting Network Traffic Capture System
+2025-06-17 17:28:03,370 - INFO - [*] Interface: Wi-Fi
+2025-06-17 17:28:03,370 - INFO - [*] Capture Duration: 15 seconds
+2025-06-17 17:28:03,370 - INFO - [*] Endpoint: http://127.0.0.1:8000/predict/
+2025-06-17 17:28:03,370 - INFO - ==================================================
+2025-06-17 17:28:03,370 - INFO - [*] Cleaning up old files...
+2025-06-17 17:28:03,375 - INFO - [*] Starting capture worker thread
+2025-06-17 17:28:03,375 - INFO - [*] Capturing traffic to captures\20250617_172803.pcap for 15 seconds...
+2025-06-17 17:28:03,377 - INFO - [*] Starting conversion and sending worker thread
+2025-06-17 17:28:03,379 - INFO - [*] System running... Press Ctrl+C to stop
+2025-06-17 17:28:18,912 - INFO - [*] Capturing traffic to captures\20250617_172818.pcap for 15 seconds...
+2025-06-17 17:28:18,913 - INFO - [*] Processing file: captures\20250617_172803.pcap
+2025-06-17 17:28:19,456 - INFO - [*] Converting captures\20250617_172803_converted.pcap to CSV using CICFlowMeter...
+2025-06-17 17:28:23,076 - WARNING - [!] Row 1 failed with status: 204
+2025-06-17 17:28:23,087 - WARNING - [!] Row 2 failed with status: 204
+2025-06-17 17:28:23,103 - WARNING - [!] Row 3 failed with status: 204
+2025-06-17 17:28:23,115 - WARNING - [!] Row 4 failed with status: 204
+2025-06-17 17:28:23,131 - WARNING - [!] Row 5 failed with status: 204
+2025-06-17 17:28:23,142 - WARNING - [!] Row 6 failed with status: 204
+2025-06-17 17:28:23,161 - WARNING - [!] Row 7 failed with status: 204
+2025-06-17 17:28:23,181 - WARNING - [!] Row 8 failed with status: 204
+2025-06-17 17:28:23,200 - WARNING - [!] Row 9 failed with status: 204
+2025-06-17 17:28:23,201 - INFO - [*] Cleaning up processed files...
+2025-06-17 17:28:32,962 - INFO - [*] Shutdown signal received
+2025-06-17 17:28:32,962 - INFO - [*] Cleaning up...
+2025-06-17 17:28:32,963 - INFO - [*] Cleaning up old files...
+2025-06-17 17:28:32,963 - WARNING - [!] File in use, retrying removal of captures\20250617_172818.pcap (attempt 1/5)
+2025-06-17 17:28:33,001 - INFO - [*] Capturing traffic to captures\20250617_172833.pcap for 15 seconds...
+2025-06-17 17:28:33,001 - INFO - [*] Processing file: captures\20250617_172818.pcap
+2025-06-17 17:28:33,544 - INFO - [*] Converting captures\20250617_172818_converted.pcap to CSV using CICFlowMeter...
+2025-06-17 17:28:34,968 - INFO - [*] System stopped

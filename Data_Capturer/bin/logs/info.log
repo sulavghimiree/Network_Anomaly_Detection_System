@@ -1,0 +1,165 @@
+2021-09-27 14:32:31 - Pcap is listening...
+2021-09-27 14:35:48 - Pcap stop listening
+2021-09-27 14:35:48 - path:D:\cicflowmeter-4\CICFlowMeter-4.0\bin\data\daily\2021-09-27_Flow.csv
+2021-09-27 14:42:50 - path:D:\cicflowmeter-4\CICFlowMeter-4.0\bin\data\daily\2021-09-27_Flow.csv
+2021-09-27 14:49:50 - Pcap is listening...
+2021-09-27 14:52:55 - Pcap stop listening
+2021-09-27 14:52:55 - path:C:\Users\Network Lab\Desktop\J L Shreya\CICFlowMeter and ISCXFlowMeter\cicflowmeter-4\CICFlowMeter-4.0\bin\data\daily\2021-09-27_Flow.csv
+2021-09-27 14:53:05 - Pcap is listening...
+2021-09-27 14:54:31 - Pcap stop listening
+2021-09-27 14:54:31 - path:C:\Users\Network Lab\Desktop\J L Shreya\CICFlowMeter and ISCXFlowMeter\cicflowmeter-4\CICFlowMeter-4.0\bin\data\daily\2021-09-27_Flow.csv
+2021-09-27 14:54:49 - path:C:\Users\Network Lab\Desktop\J L Shreya\CICFlowMeter and ISCXFlowMeter\cicflowmeter-4\CICFlowMeter-4.0\bin\data\daily\2021-09-27_Flow.csv
+2021-09-27 14:54:49 - path:C:\Users\Network Lab\Desktop\J L Shreya\CICFlowMeter and ISCXFlowMeter\cicflowmeter-4\CICFlowMeter-4.0\bin\data\daily\2021-09-27_Flow.csv
+2021-09-27 14:56:26 - Pcap is listening...
+2021-09-27 16:01:14 - Pcap stop listening
+2021-09-27 16:01:14 - path:C:\Users\Network Lab\Desktop\J L Shreya\CICFlowMeter and ISCXFlowMeter\cicflowmeter-4\CICFlowMeter-4.0\bin\data\daily\2021-09-27_Flow.csv
+2021-09-29 19:01:19 - Pcap is listening...
+2021-09-29 19:04:20 - Pcap stop listening
+2021-09-29 19:04:20 - path:C:\Users\Network Lab\Desktop\J L Shreya\CICFlowMeter and ISCXFlowMeter\cicflowmeter-4\CICFlowMeter-4.0\bin\data\daily\2021-09-29_Flow.csv
+2021-09-29 19:07:47 - path:C:\Users\Network Lab\Desktop\J L Shreya\CICFlowMeter and ISCXFlowMeter\cicflowmeter-4\CICFlowMeter-4.0\bin\data\daily\2021-09-29_Flow.csv
+2021-12-19 20:29:20 - Pcap is listening...
+2021-12-19 20:34:17 - Pcap stop listening
+2021-12-19 20:34:17 - path:F:\CICFlowMeter-4.0\bin\data\daily\2021-12-19_Flow.csv
+2021-12-19 20:40:47 - Pcap is listening...
+2021-12-19 20:41:21 - Pcap stop listening
+2021-12-19 20:41:22 - path:F:\CICFlowMeter-4.0\bin\data\daily\2021-12-19_Flow.csv
+2023-04-02 20:15:04 - Please select pcap!
+2023-04-02 20:24:48 - Pcap is listening...
+2023-04-02 20:26:08 - Pcap stop listening
+2023-04-02 20:26:08 - path:C:\Users\TribeConnect\Downloads\cicflowmeter\bin\data\daily\2023-04-02_Flow.csv
+2023-04-02 20:26:11 - Pcap is listening...
+2023-04-02 20:27:19 - Pcap stop listening
+2023-04-02 20:27:19 - path:C:\Users\TribeConnect\Downloads\cicflowmeter\bin\data\daily\2023-04-02_Flow.csv
+2023-04-02 20:27:20 - Pcap is listening...
+2023-04-02 20:27:22 - Pcap stop listening
+2023-04-02 20:27:22 - path:C:\Users\TribeConnect\Downloads\cicflowmeter\bin\data\daily\2023-04-02_Flow.csv
+2025-06-17 08:56:04 - You select: captures\20250617_085531.pcap
+2025-06-17 08:56:04 - Out folder: csv_output
+2025-06-17 08:56:05 - CICFlowMeter received 1 pcap file
+2025-06-17 08:56:34 - You select: captures\20250617_085603.pcap
+2025-06-17 08:56:34 - Out folder: csv_output
+2025-06-17 08:56:34 - CICFlowMeter received 1 pcap file
+2025-06-17 08:57:04 - You select: captures\20250617_085633.pcap
+2025-06-17 08:57:04 - Out folder: csv_output
+2025-06-17 08:57:04 - CICFlowMeter received 1 pcap file
+2025-06-17 08:57:35 - You select: captures\20250617_085704.pcap
+2025-06-17 08:57:35 - Out folder: csv_output
+2025-06-17 08:57:35 - CICFlowMeter received 1 pcap file
+2025-06-17 08:58:05 - You select: captures\20250617_085734.pcap
+2025-06-17 08:58:05 - Out folder: csv_output
+2025-06-17 08:58:06 - You select: captures\20250617_085804.pcap
+2025-06-17 08:58:06 - Out folder: csv_output
+2025-06-17 08:58:06 - CICFlowMeter received 1 pcap file
+2025-06-17 08:58:07 - You select: captures\20250617_085805.pcap
+2025-06-17 08:58:07 - Out folder: csv_output
+2025-06-17 08:58:09 - You select: captures\20250617_085808.pcap
+2025-06-17 08:58:09 - Out folder: csv_output
+2025-06-17 08:59:09 - You select: captures\20250617_085838.pcap
+2025-06-17 08:59:09 - Out folder: csv_output
+2025-06-17 08:59:10 - CICFlowMeter received 1 pcap file
+2025-06-17 08:59:40 - You select: captures\20250617_085909.pcap
+2025-06-17 08:59:40 - Out folder: csv_output
+2025-06-17 08:59:40 - CICFlowMeter received 1 pcap file
+2025-06-17 09:01:06 - You select: captures\20250617_090036.pcap
+2025-06-17 09:01:06 - Out folder: csv_output
+2025-06-17 09:01:07 - CICFlowMeter received 1 pcap file
+2025-06-17 09:01:37 - You select: captures\20250617_090106.pcap
+2025-06-17 09:01:37 - Out folder: csv_output
+2025-06-17 09:01:37 - CICFlowMeter received 1 pcap file
+2025-06-17 09:02:07 - You select: captures\20250617_090137.pcap
+2025-06-17 09:02:07 - Out folder: csv_output
+2025-06-17 09:02:08 - CICFlowMeter received 1 pcap file
+2025-06-17 09:02:38 - You select: captures\20250617_090207.pcap
+2025-06-17 09:02:38 - Out folder: csv_output
+2025-06-17 09:02:38 - CICFlowMeter received 1 pcap file
+2025-06-17 09:02:47 - You select: captures\20250617_090238.pcap
+2025-06-17 09:02:47 - Out folder: csv_output
+2025-06-17 09:02:47 - CICFlowMeter received 1 pcap file
+2025-06-17 09:02:47 - You select: captures\20250617_090246.pcap
+2025-06-17 09:02:47 - Out folder: csv_output
+2025-06-17 09:02:47 - CICFlowMeter received 1 pcap file
+2025-06-17 09:02:48 - You select: captures\20250617_090247.pcap
+2025-06-17 09:02:48 - Out folder: csv_output
+2025-06-17 09:02:49 - You select: captures\20250617_090248.pcap
+2025-06-17 09:02:49 - Out folder: csv_output
+2025-06-17 09:02:49 - CICFlowMeter received 1 pcap file
+2025-06-17 09:04:21 - You select: captures\20250617_090350.pcap
+2025-06-17 09:04:21 - Out folder: csv_output
+2025-06-17 09:04:21 - CICFlowMeter received 1 pcap file
+2025-06-17 09:04:52 - You select: captures\20250617_090421.pcap
+2025-06-17 09:04:52 - Out folder: csv_output
+2025-06-17 09:04:52 - CICFlowMeter received 1 pcap file
+2025-06-17 09:05:22 - You select: captures\20250617_090451.pcap
+2025-06-17 09:05:22 - Out folder: csv_output
+2025-06-17 09:05:22 - CICFlowMeter received 1 pcap file
+2025-06-17 09:05:53 - You select: captures\20250617_090522.pcap
+2025-06-17 09:05:53 - Out folder: csv_output
+2025-06-17 09:05:53 - CICFlowMeter received 1 pcap file
+2025-06-17 09:06:23 - You select: captures\20250617_090552.pcap
+2025-06-17 09:06:23 - Out folder: csv_output
+2025-06-17 09:06:23 - CICFlowMeter received 1 pcap file
+2025-06-17 09:06:54 - You select: captures\20250617_090623.pcap
+2025-06-17 09:06:54 - Out folder: csv_output
+2025-06-17 09:06:54 - CICFlowMeter received 1 pcap file
+2025-06-17 09:07:18 - You select: captures\20250617_090717.pcap
+2025-06-17 09:07:18 - Out folder: csv_output
+2025-06-17 09:16:01 - You select: captures\20250617_091530.pcap
+2025-06-17 09:16:01 - Out folder: csv_output
+2025-06-17 09:16:01 - CICFlowMeter received 1 pcap file
+2025-06-17 09:16:31 - You select: captures\20250617_091601.pcap
+2025-06-17 09:16:31 - Out folder: csv_output
+2025-06-17 09:16:32 - CICFlowMeter received 1 pcap file
+2025-06-17 16:32:12 - You select: captures\20250617_163135.pcap
+2025-06-17 16:32:12 - Out folder: csv_output
+2025-06-17 16:32:13 - CICFlowMeter received 1 pcap file
+2025-06-17 16:32:13 - Error while opening file for capture: bad dump file format
+2025-06-17 16:32:39 - You select: captures\20250617_163208.pcap
+2025-06-17 16:32:39 - Out folder: csv_output
+2025-06-17 16:32:40 - CICFlowMeter received 1 pcap file
+2025-06-17 16:32:40 - Error while opening file for capture: bad dump file format
+2025-06-17 16:36:24 - You select: .\captures\20250617_090653.pcap
+2025-06-17 16:36:24 - Out folder: .\csv_output\
+2025-06-17 16:36:25 - CICFlowMeter received 1 pcap file
+2025-06-17 16:36:25 - Error while opening file for capture: bad dump file format
+2025-06-17 16:55:03 - You select: .\20250617_090653.pcap
+2025-06-17 16:55:03 - Out folder: .\csv_output\
+2025-06-17 16:55:03 - CICFlowMeter received 1 pcap file
+2025-06-17 16:55:03 - Error while opening file for capture: bad dump file format
+2025-06-17 17:16:35 - You select: test.pcap
+2025-06-17 17:16:35 - Out folder: output_dir
+2025-06-17 17:16:36 - CICFlowMeter received 1 pcap file
+2025-06-17 17:16:36 - Error while opening file for capture: bad dump file format
+2025-06-17 17:16:45 - You select: test.pcap
+2025-06-17 17:16:45 - Out folder: output_dir
+2025-06-17 17:16:45 - CICFlowMeter received 1 pcap file
+2025-06-17 17:16:45 - Error while opening file for capture: bad dump file format
+2025-06-17 17:17:17 - You select: test.pcap
+2025-06-17 17:17:17 - Out folder: csv_output
+2025-06-17 17:17:17 - CICFlowMeter received 1 pcap file
+2025-06-17 17:17:18 - Error while opening file for capture: bad dump file format
+2025-06-17 17:17:27 - You select: test.pcap
+2025-06-17 17:17:27 - Out folder: csv_output
+2025-06-17 17:17:27 - CICFlowMeter received 1 pcap file
+2025-06-17 17:17:28 - Error while opening file for capture: bad dump file format
+2025-06-17 17:20:34 - You select: captures\20250617_172028_converted.pcap
+2025-06-17 17:20:34 - Out folder: csv_output
+2025-06-17 17:20:35 - CICFlowMeter received 1 pcap file
+2025-06-17 17:20:40 - You select: captures\20250617_172034_converted.pcap
+2025-06-17 17:20:40 - Out folder: csv_output
+2025-06-17 17:20:40 - CICFlowMeter received 1 pcap file
+2025-06-17 17:20:46 - You select: captures\20250617_172040_converted.pcap
+2025-06-17 17:20:46 - Out folder: csv_output
+2025-06-17 17:20:46 - CICFlowMeter received 1 pcap file
+2025-06-17 17:20:51 - You select: captures\20250617_172045_converted.pcap
+2025-06-17 17:20:51 - Out folder: csv_output
+2025-06-17 17:20:52 - CICFlowMeter received 1 pcap file
+2025-06-17 17:28:19 - You select: captures\20250617_172803_converted.pcap
+2025-06-17 17:28:19 - Out folder: csv_output
+2025-06-17 17:28:19 - CICFlowMeter received 1 pcap file
+2025-06-17 17:28:33 - You select: captures\20250617_172818_converted.pcap
+2025-06-17 17:28:33 - Out folder: csv_output
+2025-06-17 17:28:34 - CICFlowMeter received 1 pcap file
+2025-06-18 09:15:00 - You select: captures\20250618_091426.pcap
+2025-06-18 09:15:00 - Out folder: csv_output
+2025-06-18 09:15:00 - CICFlowMeter received 1 pcap file
+2025-06-18 09:15:00 - Error while opening file for capture: bad dump file format
