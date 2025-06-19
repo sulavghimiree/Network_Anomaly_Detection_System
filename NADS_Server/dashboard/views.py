@@ -10,12 +10,12 @@ from datetime import timedelta
 def dashboard(request):
     return render(request, 'dashboard.html')
 
-
 def get_attack_data(request):
+    """Get 5-minute attack data for the live graph"""
     now = timezone.now()
-    five_min_ago = now - timedelta(minutes=5)
-    logs = AttackLog.objects.filter(timestamp__gte=five_min_ago)
-
+    five_minutes_ago = now - timedelta(minutes=5)
+    logs = AttackLog.objects.filter(timestamp__gte=five_minutes_ago)
+    
     attack_data = {
         'labels': [],
         'DDOS': [],
@@ -24,9 +24,9 @@ def get_attack_data(request):
         'BruteForce': [],
         'Normal': [],
     }
-
-    interval = timedelta(seconds=10)
-    current = five_min_ago
+    
+    interval = timedelta(seconds=20)  # 20-second intervals
+    current = five_minutes_ago
     while current < now:
         next_interval = current + interval
         attack_data['labels'].append(current.strftime("%H:%M:%S"))
@@ -34,14 +34,26 @@ def get_attack_data(request):
             count = logs.filter(attack=attack_type, timestamp__gte=current, timestamp__lt=next_interval).count()
             attack_data[attack_type].append(count)
         current = next_interval
-
+    
     return JsonResponse(attack_data)
 
+def get_daily_stats(request):
+    """Get daily attack statistics for the status cards"""
+    now = timezone.now()
+    one_day_ago = now - timedelta(days=1)
+    logs = AttackLog.objects.filter(timestamp__gte=one_day_ago)
+    
+    daily_counts = {}
+    for attack_type in ['DDOS', 'PortScan', 'SqlInjection', 'BruteForce', 'Normal']:
+        daily_counts[attack_type] = logs.filter(attack=attack_type).count()
+    
+    return JsonResponse({'daily_counts': daily_counts})
 
 def get_attack_logs(request):
+    """Get attack logs for the incident log section"""
     now = timezone.now()
-    five_min_ago = now - timedelta(minutes=5)
-    logs = AttackLog.objects.filter(timestamp__gte=five_min_ago).exclude(attack='Normal').order_by('-timestamp')
+    one_day_ago = now - timedelta(days=1)  # Keep logs for 24 hours
+    logs = AttackLog.objects.filter(timestamp__gte=one_day_ago).exclude(attack='Normal').order_by('-timestamp')
     total_attacks = logs.count()
     logs_data = [
         {
